@@ -1,1 +1,23 @@
-<p>dashboard works!</p>
+<section class="dashboard">
+    <div class="container">
+        <h1 class="text-center">Analytics Overview</h1>
+        <div class="text-center">
+            COVID Safety Index = How easily you can maintain social distancing<br>
+            Public Safety Index = How frequently people are entering and leaving the space so that you're not left alone
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-3" *ngFor="let d of analyticsDashboard">
+                <div class="box shadow-sm">
+                    <img src="{{d.image}}" width="100%">
+                    <h3 class="mt-2">{{d.name}}</h3>
+                    <p class="mt-2">
+                        COVID safety index: <span class="rating">{{d.covid_index}}</span><br>
+                        Public safety index: <span class="rating">{{d.public_safety_index}}</span>
+                    </p>
+                    <button class="btn btn-primary btn-sm mt-2">Watch now</button>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+</section>

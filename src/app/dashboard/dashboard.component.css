@@ -1,0 +1,28 @@
+.dashboard {
+    background-color: #000000;
+    padding: 50px 100px;
+    color: #FFFFFF;
+}
+
+.box {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.rating {
+    text-transform: uppercase;
+}
+
+.box.red {
+    background-color: #FFCCCB;    
+}
+
+.box.yellow {
+    background-color: #FFFF99;    
+}
+
+.box.green {
+    background-color: #90EE90;    
+}
