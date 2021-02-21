@@ -10,7 +10,7 @@ export class LoginComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    window.location.href = "https://crowdintelligence.herokuapp.com/";
+    window.location.href = "http://localhost:8501/";
   }
 
 }
