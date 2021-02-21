@@ -26,3 +26,10 @@
 .box.green {
     background-color: #90EE90;    
 }
+
+@media screen and (max-width: 600px) {
+    .dashboard {
+        background-color:#000000;
+        padding: 50px 10px;
+    }
+}
